@@ -1,0 +1,50 @@
+/* whole page  */
+#martins {
+    background-color: lightslategray;
+}
+
+/* Martins Aq. Header */
+.name {
+    background-image: url(https://i.natgeofe.com/n/aa1154c3-868a-4f86-b085-0939a797d7bd/01-great-barrier-reef-coral-recruitment_3x2.jpg);
+    border: 3px inset red;
+    padding: 2em;
+    margin: 0.5em;
+
+}
+
+/* Fish Card */
+.fishCard {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    border-style: double;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.fish__image {
+    width: 300px;
+    /* justify-content: space-evenly; */
+}
+
+#HarvestSpot {
+    flex-basis: 20px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: aliceblue;
+    
+}
+.harv_location {
+    border: 1px dotted black;
+    padding: 1em;
+    margin: 0.5em;
+}
+.TankHelp {
+    border-style: 3px dotted;
+    margin-left: 80px;
+    /* text-align: center; */
+    padding: 2em;
+    justify-content: right-evenly;
+    ;
+
+}
